@@ -31,17 +31,17 @@ public class PlayerController : MonoBehaviour
         isMoving = movement.magnitude > 0;
 
         // Reproduce o pausa el sonido según el estado de movimiento
-        if (isMoving)
-        {
-            if (!walk.isPlaying)
-            {
-                walk.Play();
-            }
-        }
-        else
-        {
-            walk.Pause();
-        }
+        ////if (isMoving)
+        ////{
+        ////    if (!walk.isPlaying)
+        ////    {
+        ////        walk.Play();
+        ////    }
+        ////}
+        ////else
+        ////{
+        ////    walk.Pause();
+        ////}
 
         // Calcula la fuerza de aceleración
         Vector3 accelerationForce = movement * acceleration;
