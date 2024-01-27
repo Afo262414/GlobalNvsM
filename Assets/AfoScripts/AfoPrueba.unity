@@ -784,11 +784,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -385494015
-      Data2: 1195472629
-      Data3: -2064153176
-      Data4: 1900422219
-    Path: event:/Character/Player Footsteps
+      Data1: -939964675
+      Data2: 1234949781
+      Data3: 661987496
+      Data4: 496157849
+    Path: event:/Music/Level 02
   Event: 
   PlayEvent: 1
   StopEvent: 0
