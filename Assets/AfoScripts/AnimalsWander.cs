@@ -26,16 +26,16 @@ public class AnimalsWander : MonoBehaviour
       // Check if the enemy has reached the current waypoint
       if (transform.position == targetPosition)
       {
-        currentWaypointIndex = Random.Range(0, 10);
-        if (currentWaypointIndex >= 10)
+        currentWaypointIndex = Random.Range(0, 9);
+        if (currentWaypointIndex >= 9)
         {
           currentWaypointIndex = 9;
         }
       }
       // Check if the move speed is lees of 1f to change the waypoint
       if (moveSpeed < 1f) {
-        currentWaypointIndex = Random.Range(0, 10);
-        if (currentWaypointIndex >= 10)
+        currentWaypointIndex = Random.Range(0, 9);
+        if (currentWaypointIndex >= 9)
         {
           currentWaypointIndex = 9;
         }

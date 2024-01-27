@@ -27,7 +27,7 @@ public class SecondWander : MonoBehaviour
       if (transform.position == targetPosition)
       {
         currentWaypointIndex++;
-        if (currentWaypointIndex >= 3)
+        if (currentWaypointIndex >= 2)
         {
           currentWaypointIndex = 0;
         }
@@ -36,7 +36,7 @@ public class SecondWander : MonoBehaviour
       if (moveSpeed < 1f)
       {
         currentWaypointIndex++;
-        if (currentWaypointIndex >= 3)
+        if (currentWaypointIndex >= 2)
         {
           currentWaypointIndex = 0;
         }

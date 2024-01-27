@@ -27,7 +27,7 @@ public class WhitexicansWander : MonoBehaviour
       if (transform.position == targetPosition)
       {
         currentWaypointIndex ++;
-        if (currentWaypointIndex >= 9)
+        if (currentWaypointIndex >= 8)
         {
           currentWaypointIndex = 0;
         }
@@ -36,7 +36,7 @@ public class WhitexicansWander : MonoBehaviour
       if (moveSpeed < 1f)
       {
         currentWaypointIndex ++;
-        if (currentWaypointIndex >= 9)
+        if (currentWaypointIndex >= 8)
         {
           currentWaypointIndex = 0;
         }
