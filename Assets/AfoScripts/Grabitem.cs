@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Grabitem : MonoBehaviour
 {
+    public Canvas PauseMenu;
+
   public bool Haveobject = false;
   GameObject hijo;
     // Start is called before the first frame update
@@ -22,6 +24,12 @@ public class Grabitem : MonoBehaviour
       hijo.transform.SetParent(null);
       Haveobject = false;
     }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseMenu.gameObject.SetActive(true);
+            Time.timeScale = 0f;
+        }
     }
   public void OnTriggerStay(Collider other)
   {
