@@ -347,6 +347,11 @@ PrefabInstance:
         Chan\xF3n Mendoza\nAllison Alexa Miranda L\xF3pez\nAmbar Mendoza Wruck\nMar\xEDa
         Natalia Contreras Nava\nRhon Octavio Cruz Guluarte\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 1848290136250491117, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 232
+      objectReference: {fileID: 0}
     - target: {fileID: 1848290136250491118, guid: e35c1aadad89b844b8f86ae51462b355,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -490,6 +495,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 109
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290137253182253, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290137253182253, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62db66806e208364588a886d6301044d,
+        type: 3}
+    - target: {fileID: 1848290137253182253, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.41509432
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290137253182253, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.41509432
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290137253182253, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.41509432
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022297438444840478, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: gameScene
+      value: Level_Horse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022297438444840478, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: creditScene
+      value: Credits
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022297438444840478, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: MainMenuScene
+      value: MainMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e35c1aadad89b844b8f86ae51462b355, type: 3}
