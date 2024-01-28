@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ivonne/Scenes/TestIvonneScene.unity
     guid: 543704b7d92db6740a3f34bd8fd3cbf1
   - enabled: 0
