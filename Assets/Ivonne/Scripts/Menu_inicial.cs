@@ -31,11 +31,6 @@ public class Menu_inicial : MonoBehaviour
         SceneManager.LoadScene(MainMenuScene);
     }
 
-    public void Menu()
-    {
-        SceneManager.LoadScene(MainMenuScene);
-    }
-
     public void Continue()
     {
         gameObject.SetActive(false);

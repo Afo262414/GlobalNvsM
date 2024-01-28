@@ -325,6 +325,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1848290136057237341, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -191
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290136057237341, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -165
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290136205994998, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290136205994999, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_text
+      value: "Dulce Maria Hernandez Ramirez\nEkaterina M\xE9ndez Lyubares\nRenata
+        Chan\xF3n Mendoza\nAllison Alexa Miranda L\xF3pez\nAmbar Mendoza Wruck\nMar\xEDa
+        Natalia Contreras Nava\nRhon Octavio Cruz Guluarte\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 1848290136250491118, guid: e35c1aadad89b844b8f86ae51462b355,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -449,6 +471,25 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290136416617481, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_text
+      value: 'Ximena Zamadi Torres Leyva
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290136618161675, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848290137171255937, guid: e35c1aadad89b844b8f86ae51462b355,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 109
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e35c1aadad89b844b8f86ae51462b355, type: 3}
