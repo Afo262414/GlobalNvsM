@@ -6,6 +6,18 @@ TagManager:
   tags:
   - Object
   - Agarrable
+  - Raton
+  - "WCaba\xF1a"
+  - Dinero
+  - WDinero
+  - Llaves
+  - WCoche
+  - Explosion
+  - Palo
+  - Panal
+  - Gallina
+  - WRio
+  - Pala
   layers:
   - Default
   - TransparentFX

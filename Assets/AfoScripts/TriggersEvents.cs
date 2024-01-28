@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class TriggersEvents : MonoBehaviour
 {
+  public GameObject palo;
+  public GameObject dinero;
+  public GameObject llaves;
+  public GameObject fuego;
+  public GameObject explosion;
   public GameObject Activators;
   public Transform[] waypoints; // Array of waypoints the Whitexican will follow
   public int currentWaypointIndex = 0; // Index of the current waypoint
@@ -11,38 +16,42 @@ public class TriggersEvents : MonoBehaviour
   private void OnTriggerEnter(Collider other)
   {
     // If the tags are valid it activates some particles and move towards a object to the waypointindex
-    if (gameObject.tag == "Dinero" && other.tag == "WDinero")
+    if (gameObject.tag == "WDinero" && other.tag == "Dinero")
     {
-      currentWaypointIndex = 0;
-      Vector3 targetPosition = waypoints[currentWaypointIndex].position;
-      transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-      Destroy(Activators);
-      Destroy(other.gameObject);
+      llaves.SetActive(true);
+      // Use Invoke to destroy objects after a delay of 5 seconds
+      Invoke("DestroyObjects", 5f);
     }
     // If the tags are valid activate the particles
-    else if (gameObject.tag == "Raton" && other.tag == "WCabaña")
+    else if (gameObject.tag == "WCabaña" && other.tag == "Raton")
     {
-      Destroy(Activators);
-      Destroy(other.gameObject);
+      fuego.SetActive(true);
+      dinero.SetActive(true);
     }
     // If the tags are vald move towards a object to the waypointindex
-    else if (gameObject.tag == "Llaves" && other.tag == "WCoche")
+    else if (gameObject.tag == "WCoche" && other.tag == "Llaves")
     {
-      currentWaypointIndex = 1;
-      Vector3 targetPosition = waypoints[currentWaypointIndex].position;
-      transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-      Destroy(Activators);
-      Destroy(other.gameObject);
-    }
-    // If the tags are valid activate the particles of the explsion
-    else if (gameObject.tag == "WCoche" && other.tag == "Explosion")
-    {
-
+      explosion.SetActive(true);
+      // Use Invoke to destroy objects after a delay of 5 seconds
+      Invoke("DestroyObjects", 5f);
     }
     // If the tags are vali it will activate the gravity of the object
-    else if (gameObject.tag == "Palo" && other.tag == "Panal")
+    else if (gameObject.tag == "Panal" && other.tag == "Pala")
     {
-
+      Destroy(Activators);
+      Destroy(gameObject);
     }
+    // If the tags are valid activate the movement to another point of the W
+    else if (gameObject.tag == "WRio" && other.tag == "Gallina")
+    {
+      palo.SetActive(true);
+      Destroy(Activators);
+      Destroy(gameObject);
+    }
+  }
+  void DestroyObjects()
+  {
+    Destroy(Activators);
+    Destroy(gameObject);
   }
 }
